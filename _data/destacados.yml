@@ -1,0 +1,46 @@
+- name: Sobre Nosotros
+  slug: sobrenosotros
+  image: noticia1.jpg
+  contents: |
+    ### Consulta de Podología RIGO
+    Consulta de Podologia Rigo es un centro multidisciplinar orientado a
+    conseguir los óptimos resultados en el tratamiento de las afecciones del
+    pie.
+
+- name: Tratamientos
+  slug: tratamientos
+  image: noticia2.jpg
+  contents: |
+    Tras la exploración del pié y del paciente, **atendiendo**
+    a una visión holística del ser humano, diagnosticamos y tratamos las diferentes
+    patologias que se presentan, prestando especial atención al Pie de Riesgo.
+
+    Los tratamientos abarcan desde el cuidado de las uñas y
+    la piel hasta la reeduccación Postural Ortesica (R.P.O) mediante la Aplicacion
+    de Soportes Plantares.
+
+- name: Instalaciones
+  slug: instalaciones
+  image: noticia4.jpg
+  contents: |
+    ### Nuestra clínica en Campos
+    La consulta consta de una recepción, para la primera
+    toma decontacto con el paciente, sala de espera, despacho para la primera
+    visita y estudio informatizado de la marcha, 2 salas de curas, dotadas de
+    sillón, micromotor, intrumental, vacuum, horno, autoclave, etc.., taller para
+    la confeccion de los Soportes Plantares y un aseo adaptado.
+
+- name: Equipo Humano
+  slug: equipohumano
+  image: noticia3.jpg
+  contents: |
+    ### Guillermo Rigo Mestre
+
+    * Podólogo diplomado por la U.B.
+    * Máster en Ortopodología y Biomecánica por la U.B.
+    * Colegiado 063
+
+    ### Miquel Barceló Reynés
+
+    * Fisioterapeuta diplomado por la U.I.B.
+    * Colegiado 700

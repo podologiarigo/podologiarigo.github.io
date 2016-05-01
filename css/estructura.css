@@ -1,0 +1,84 @@
+/* reset */
+h1,h2,h3,h4,h5,h6,ul,ol,li,form,dl,dt,dd,p,fieldset,body {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6 {font-size:1.3em;}
+ul,li {list-style-type:none;}
+fieldset,
+a img {border:0;}
+a {text-decoration:none;}
+a:focus{outline: none;}
+select,input,textarea {font-family: Arial, Helvetica, sans-serif; font-size:1.1em;}
+input.bordificable, select, textarea {background:#fff; border:0; padding:2px;}
+
+/* comunes */
+body {font-family:Verdana, Arial, sans-serif; font-size:11px; padding:37px 0; background: url(../img/fondo.gif) repeat-x;}
+#containerGeneral {position:relative;background: url(../img/sombra.gif) no-repeat; color:#666; width:910px; padding:12px 24px 24px 24px; margin:auto;}
+#header {border-bottom:1px solid #8dd5ca; padding-bottom:10px; width:100%; overflow:hidden; margin-bottom:20px;}
+h1 {float:left; }
+	h1 a {background: url(../img/rigo.gif) no-repeat; display:block; width:230px; height:90px; text-indent:-10000px;}
+#menuPrincipal {overflow:hidden; float:right;  font-size:13px; font-family:"Trebuchet MS","Lucida Grande",Geneva,Arial,Verdana,sans-serif;}
+	#menuPrincipal li {display:inline;}
+	#menuPrincipal li a {display:block; float:left; padding:50px 19px 0 19px; height:40px; font-weight:bold; color:#fff; background:#007773 url(../img/menu.gif) repeat-x;}
+	#menuPrincipal li a:hover,
+	#menuPrincipal li a.select {color:#007773; background:#8DD5CA url(../img/menu2.gif) repeat-x; text-decoration:none;}
+h2 {color:#007773; padding-bottom:5px; margin-bottom:15px; border-bottom:1px dashed #a7a7a7;}
+h3 {color:#007773;  margin-bottom:5px; font-size:12px;}
+
+p {margin-bottom:15px;}
+a {color:#007773;}
+a:hover {text-decoration:underline;}
+.bloqueStandar {padding-bottom:15px;}
+
+#footer {background:#8dd5ca; color:#333; padding:10px; width:892px; overflow:hidden;clear:left}
+	#footer span {float:left;}
+	#footer a {color:#333;}
+	#footer ul {float:right;}
+	#footer ul li {display:inline; float:left; border-left:1px solid #333; padding:0 8px;}
+	#footer ul li.first {border:0;}
+.designBy {padding-left:5px;}
+
+
+
+
+
+/* home */
+.destacados {overflow:hidden; width:100%;}
+	.destacados li.destacados {display:block; float:left; width:211px; margin-right:22px;text-align:justify}
+	.destacados li.m0 {margin:0;}
+	.destacados li.destacadpos img {display:block; margin-bottom:10px;}
+	.destacados li.destacados div {padding:10px; border:1px solid #c9c9c9; min-height:215px;}
+        .destacados h4 {color:#007773; padding-bottom:8px;  margin-bottom:10px; font-size:14px;border-bottom:8px solid #8BD5D4;}
+        .destacados h4.osc {border-bottom:8px solid #007772;}
+        
+/* detalle noticia */
+.date {display:block; text-align:right; margin-bottom:5px; color:#999;}
+.bloqueImagen {padding-bottom:25px; width:100%; overflow:hidden;}
+	.bloqueImagen img {float:left; margin:0 10px 10px 0;}
+	.bloqueImagen a {text-decoration:underline;}
+	.bloqueImagen a:hover {text-decoration:none;}
+
+/* contacto */
+p.sprBottom {margin-bottom:50px;}
+.contacto {width:40%; float:left; padding-bottom:25px; margin-right:20px;}
+label {display:block; margin-bottom:5px;}
+input {border:0; background:#8dd5ca; color:#007773; width:100%; padding:2px 5px; width:60%;}
+textarea {border:0; background:#8dd5ca; color:#007773; width:95%; padding:2px 5px; margin-bottom:15px;}
+.alignR {text-align:right; padding-right:10px;}
+input.bt {width:auto; background:#007773; color:#fff; cursor:pointer; padding:2px 10px; border:1px solid #003331; border-left:1px solid #78c4c1; border-top:1px solid #78c4c1;}
+.localizacion {width:50%; float:left; padding-bottom:25px;}
+	.localizacion ul {margin-bottom:15px;}
+.googleMaps {border-top:1px solid #007772; clear:both;}
+
+#telefono {
+  background: url("../img/tel2.png") no-repeat scroll 0 0 transparent;
+  color:#007773;
+  font-size:12px;
+  height:30px;
+  padding:4px 0 0 30px;
+  position:absolute;
+  right:8px;
+  top:-19px;
+}
+.equipohumano li {padding: 0px 0 8px 12px;background: url("../img/tools/scrollable/arrow/bolita.png") 0 2px no-repeat }
+
+
+#telefono span {padding-left:20px;font-weight:bold}

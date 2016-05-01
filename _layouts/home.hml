@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+{% include slider.html %}
+
+<div class="bloqueStandar">
+   {{ content }} 
+</div>
+<div class="bloqueStandar">
+    <ul class="destacados"> 
+        {% for destacado in site.data.destacados %}
+            <li class="destacados {{destacado.slug}} {% if forloop.last %}m0{% endif %}">
+            <a name="{{destacado.slug}}" href="/"></a>
+            <h4 class="{% cycle 'cla', 'osc' %}"> {{ destacado.name }} </h4>
+            <img src="/img/{{ destacado.image }}" alt="Noticia" />
+            <div>
+               {{ destacado.contents | markdownify }}
+            </div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

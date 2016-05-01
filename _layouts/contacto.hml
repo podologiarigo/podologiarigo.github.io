@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+<div class="bloqueStandar">
+    <div class="localizacion">
+        {{ content }}
+        <div id='mapa' style="width: 910px; height: 450px;border:1px solid #C9C9C9;"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/js/libs/jquery-1.4.3.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/general.js"></script>
+    <script type="text/javascript" src="/js/libs/jquery.labelify.js"></script>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA565eoscwYhn4A0NU-OK8ZhQTJz_XkeDenpPa1AcTj8b7n_IYTBRpucqFS7nHWmnxDcXgLyZ8ptBS2g"  type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            function load_mapa() {      
+            if (GBrowserIsCompatible()) {      
+                var map = new GMap2(document.getElementById("mapa"));
+                var coordenades = new GLatLng(39.435295,3.01947);
+        map.setCenter(coordenades, 16);
+            map.addControl(new GSmallMapControl());
+            map.addControl(new GMapTypeControl());
+                var baseIcon = new GIcon();
+                baseIcon.image="/img/rigomini.gif";
+                baseIcon.iconSize = new GSize(15, 15);
+                baseIcon.iconAnchor = new GPoint(9, 2);
+                markerOptions = { icon:baseIcon };
+                var marker = new GMarker(coordenades, markerOptions);
+        map.addOverlay(marker);
+        map.openInfoWindowHtml(map.getCenter(),
+                "<div style='width:240px;text-align:left'><img src='/img/rigomini.gif' style='width:50px;float:left; margin:0; border:0;'><p style='float:left;padding-left:10px'><span style='color:#8bd5d4'>Consulta de Podología  </span><span style='color:#007772;'>RIGO</span> <br/>C. La Rambla 40, Loc. 1<br/>Campos</div>");
+            }
+            }
+            load_mapa();
+            $("input").labelify({ text: 'title'});
+            $("#id_comentario").labelify({ text: 'name'});
+            });
+</script>
