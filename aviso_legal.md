@@ -4,7 +4,7 @@ title: Aviso Legal
 permalink: /aviso-legal/
 ---
 
-## Condiciones de uso
+## CONDICIONES DE USO
 
 En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información 
 y de Comercio Electrónico (LSSI-CE), GUILLERMO RIGO MESTRE informa que es titular del sitio 
