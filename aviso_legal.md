@@ -58,6 +58,21 @@ podrán realizarse a través de su sitio web por cualquier forma admisible en de
 obligado cumplimiento durante el tiempo en que se encuentren publicadas en la web y hasta 
 que no sean modificadas válidamente por otras posteriores.
 
+## RESERVA DE COOKIES 
+
+Una Cookie es un fichero que se descarga en su ordenador al acceder a determinadas páginas 
+web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar 
+información sobre los hábitos de navegación de un usuario o de su equipo y, dependiendo de la 
+información que contenga y de la forma en que utilice su equipo, pueden utilizarse para 
+reconocer al usuario. 
+
+Según lo dispuesto en el artículo 22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la 
+Sociedad de la Información y de Comercio Electrónico (LSSI-CE), por el que se debe informar a 
+los usuarios sobre la utilización de dispositivos de almacenamiento y recuperación de datos en 
+equipos terminales, GUILLERMO RIGO MESTRE informa que al acceder al presente dominio 
+web http://podologiarigo.com, no se instalarán cookies en sus equipos. En el caso de que 
+GUILLERMO RIGO MESTRE decida utilizar dichos dispositivos, procederá a informar a sus 
+usuarios.
 
 ## PROTECCIÓN DE DATOS 
 
