@@ -10,7 +10,7 @@ layout: base
 </div>
 
 <script type="text/javascript" src="/js/libs/jquery-1.4.3.min.js"></script>
-    <script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="/js/libs/jquery.tools.min.js"></script>
     <script type="text/javascript" src="/js/general.js"></script>
     <script type="text/javascript" src="/js/libs/jquery.labelify.js"></script>
     <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=AIzaSyDB-nPKF7RzwcXbyrmyZWA1Fm84iGx4TvQ"  type="text/javascript"></script>
